@@ -134,7 +134,7 @@ input[type="email"] {
     padding: 12px 20px;
     width: 100%;
     max-width: 480px;
-    border: 2px solid #ddd;
+    border: 2px solid orange;
     border-radius: 25px;
     font-size: 16px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
@@ -144,7 +144,7 @@ input[type="email"] {
 
 input[type="email"]:focus {
     outline: none;
-    border-color: #ff6f61;
+    border-color: red;
     transform: scale(1.02);
 }
 
