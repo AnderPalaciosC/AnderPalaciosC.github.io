@@ -112,7 +112,10 @@ main {
 
 .cta-section {
     text-align: center;
-    margin-top: 30px;
+    padding: 30px;
+    border: 2px solid orange;
+    border-radius: 15px;
+    box-shadow: #e65b50 0px 0px 20px;
 }
 
 .cta-section p {
