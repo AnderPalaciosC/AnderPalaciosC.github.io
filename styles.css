@@ -139,6 +139,7 @@ input[type="email"] {
     font-size: 16px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
     transition: border-color 0.3s ease, transform 0.2s ease;
+    text-align: center;
 }
 
 input[type="email"]:focus {
@@ -149,7 +150,7 @@ input[type="email"]:focus {
 
 button {
     padding: 12px 40px;
-    background: #ff6f61;
+    background: orange;
     color: white;
     border: none;
     border-radius: 25px;
