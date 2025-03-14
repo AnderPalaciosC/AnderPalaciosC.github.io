@@ -48,7 +48,7 @@ header .container .logo {
 
 .encabezado .profesion {
     margin-top: 40px;
-    color: wheat;
+    color: orange;
     font-size: 30px;
     font-weight: 400;
     text-transform: uppercase;
@@ -56,7 +56,7 @@ header .container .logo {
 }
 
 .encabezado .nombre_cabezado {
-    color: wheat;
+    color: orange;
     font-size: 48px;
     font-weight: 700;
     margin-top: 5px;
