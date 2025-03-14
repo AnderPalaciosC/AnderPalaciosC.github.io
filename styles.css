@@ -115,7 +115,7 @@ main {
     padding: 30px;
     border: 2px solid orange;
     border-radius: 15px;
-    box-shadow: #e65b50 0px 0px 20px;
+    box-shadow: #e65b50 0px 0px 10px;
 }
 
 .cta-section p {
