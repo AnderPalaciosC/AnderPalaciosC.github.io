@@ -41,7 +41,8 @@ header .container .logo {
     height: 400px;
     width: auto;
     border-radius: 8px;
-    box-shadow: 0pc 0px 20px white;
+    /* box-shadow: 0pc 0px 20px white; */
+    border: 5px solid white;
 }
 
 .encabezado {
