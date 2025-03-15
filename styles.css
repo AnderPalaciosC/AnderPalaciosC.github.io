@@ -22,7 +22,7 @@ body {
     margin: 40px auto;
     background: #fff;
     padding: 40px;
-    box-shadow: 0pc 0px 20px rgb(0, 0, 0);
+    box-shadow: 0pc 0px 20px white;
     border-radius: 8px;
 }
 
@@ -41,7 +41,7 @@ header .container .logo {
     height: 400px;
     width: auto;
     border-radius: 8px;
-    box-shadow: 0pc 0px 20px rgb(0, 0, 0);
+    box-shadow: 0pc 0px 20px white;
 }
 
 .encabezado {
@@ -50,7 +50,7 @@ header .container .logo {
 
 .encabezado .profesion {
     margin-top: 40px;
-    color: orange;
+    color: white;
     font-size: 30px;
     font-weight: 400;
     text-transform: uppercase;
@@ -58,7 +58,7 @@ header .container .logo {
 }
 
 .encabezado .nombre_cabezado {
-    color: orange;
+    color: white;
     font-size: 48px;
     font-weight: 700;
     margin-top: 5px;
