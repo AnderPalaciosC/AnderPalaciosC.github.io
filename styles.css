@@ -8,10 +8,10 @@ body {
     font-family: 'Roboto Slab', serif;
     line-height: 1.4;
     color: #333;
-    background-color: black;
+    /* background-color: black; */
     /* background-color: #281E1E; */
     /* background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png'); */
-    /* background-color: rgb(73 6 6); */
+    background-color: rgb(73 6 6);
     /* background-color: rgb(71 99 121); */
     /* background-color: rgb(157, 157, 157); */
     background-size: cover;
@@ -24,8 +24,8 @@ body {
 .container {
     max-width: 900px; /* Ancho similar a un A4 */
     margin: 40px auto;
-    background-color: black;
-    /* background: #fff; */
+    /* background-color: black; */
+    background: #fff;
     padding: 40px;
     border: 0.5px solid white;
     /* box-shadow: 0pc 0px 20px white; */
@@ -37,6 +37,7 @@ header {
     text-align: center;
     padding: 30px 0;
     background: none;
+    background-color: black;
 }
 
 header .container .logo {
@@ -93,8 +94,8 @@ main {
 }
 
 .intro-section p {
-    /* color: black; */
-    color: white;
+    color: black;
+    /* color: white; */
 } 
 
 .intro-section {
@@ -290,9 +291,9 @@ footer p {
     margin-top: 15px;
 }
 
-.label-text {
+/* .label-text {
     color: white;
-}
+} */
 
 .checkbox-container a {
     color: #721d5d;
