@@ -27,7 +27,7 @@ body {
     background-color: black;
     /* background: #fff; */
     padding: 40px;
-    border: 2px solid white;
+    border: 0.5px solid white;
     /* box-shadow: 0pc 0px 20px white; */
     border-radius: 8px;
 }
