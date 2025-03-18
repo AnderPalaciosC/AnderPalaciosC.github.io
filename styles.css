@@ -8,7 +8,8 @@ body {
     font-family: 'Roboto Slab', serif;
     line-height: 1.4;
     color: #333;
-    background-color: #281E1E;
+    background-color: black;
+    /* background-color: #281E1E; */
     /* background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png'); */
     /* background-color: rgb(73 6 6); */
     /* background-color: rgb(71 99 121); */
@@ -23,8 +24,10 @@ body {
 .container {
     max-width: 900px; /* Ancho similar a un A4 */
     margin: 40px auto;
-    background: #fff;
+    background-color: black;
+    /* background: #fff; */
     padding: 40px;
+    border: 5px solid white;
     /* box-shadow: 0pc 0px 20px white; */
     border-radius: 8px;
 }
@@ -90,7 +93,8 @@ main {
 }
 
 .intro-section p {
-    color: black;
+    /* color: black; */
+    color: white;
 } 
 
 .intro-section {
@@ -301,6 +305,7 @@ footer p {
 }
 
 .fondo_naranja {
+    color: black;
     background-color: orange;
 }
 
