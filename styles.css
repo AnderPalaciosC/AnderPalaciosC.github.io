@@ -27,7 +27,7 @@ body {
     background-color: black;
     /* background: #fff; */
     padding: 40px;
-    border: 5px solid white;
+    border: 2px solid white;
     /* box-shadow: 0pc 0px 20px white; */
     border-radius: 8px;
 }
@@ -290,6 +290,19 @@ footer p {
     margin-top: 15px;
 }
 
+.label-text {
+    color: white;
+}
+
+.checkbox-container a {
+    color: #721d5d;
+    text-decoration: none;
+}
+
+.checkbox-container a:hover {
+    text-decoration: underline;
+}
+
 .checkbox-container input {
     margin-right: 10px;
     width: 18px;
@@ -331,3 +344,4 @@ footer p {
 .tres_pautas {
     margin-left: 100px;
 }
+
