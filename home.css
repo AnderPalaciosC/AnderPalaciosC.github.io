@@ -109,6 +109,12 @@ main {
     /* color: white; */
 } 
 
+.intro-section a {
+    color: black;
+    text-align: right;
+    /* color: white; */
+} 
+
 .intro-section {
     padding: 40px 0;
 }
