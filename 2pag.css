@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.4;
+    color: #333;
+    /* background-color: black; */
+    /* background-color: #281E1E; */
+    /* background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png'); */
+    /* background-color: rgb(73 6 6); */
+    /* background-color: rgb(71 99 121); */
+    /* background-color: rgb(157, 157, 157); */
+    background-size: cover;
+    background-repeat: repeat;
+    /* background: url('imagenes/fondo.jpg') no-repeat center center fixed; */
+    /* Sombra roja solo en el lado derecho */
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 30px 0;
+    background: none;
+    /* background-color: black; */
+    /* background-color: rgb(73 6 6); */
+}
+
+/* Contenedor principal con efecto de folio A4 */
+.container {
+    max-width: 900px; /* Ancho similar a un A4 */
+    margin: 40px auto;
+    /* background-color: black; */
+    background: #fff;
+    padding: 40px;
+    border: 2px solid rgb(73 6 6);
+    /* border: 0.5px solid white; */
+    /* box-shadow: 0pc 0px 20px white; */
+    border-radius: 8px;
+}
+
+.pie {
+    text-align: center;
+    padding: 40px;
+    background: none;
+    /* background-color: black; */
+    background-color: rgb(73 6 6);
+}
+
+header .container .logo {
+    text-align: center;
+}
+
+.logo img {
+    height: 400px;
+    width: auto;
+    border-radius: 8px;
+    /* box-shadow: 0pc 0px 20px white; */
+    border: 5px solid white;
+}
+
+.encabezado {
+    text-align: center;
+}
+
+.encabezado .profesion {
+    margin-top: 40px;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.encabezado .nombre_cabezado {
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Sección principal */
+main {
+    margin-top: 0;
+}
+
+.intro-section {
+    padding: 40px 0;
+}
+
+.intro-section h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #222;
+    text-align: center;
+    margin-bottom: 30px;
+    /* border-bottom: 2px solid #ff6f61; */
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.intro-section .cta-section h1 {
+    font-size: 12px;
+    text-align: center;
+}
+
+.intro-section h1 {
+    font-size: 18px;
+    color: black;
+    text-align: center;
+}
+
+.intro-section p {
+    color: black;
+    text-align: center;
+    /* color: white; */
+} 
+
+.intro-section {
+    padding: 40px 0;
+}
+
+/* .intro-section p strong {
+    color: #ff6f61;
+} */
+
+/* .intro-section p em {
+    font-style: italic;
+    color: #222;
+} */
+
+/* Call to Action (CTA) */
+/* .cta-section {
+    margin-top: 40px;
+    text-align: center;
+    padding: 30px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+} */
+
+.cta-section {
+    text-align: center;
+    padding: 30px;
+    border: 2px solid orange;
+    border-radius: 15px;
+    box-shadow: #e65b50 0px 0px 10px;
+}
+
+.cta-section p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.email-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input[type="email"] {
+    padding: 12px 20px;
+    width: 100%;
+    max-width: 480px;
+    border: 2px solid orange;
+    border-radius: 25px;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    transition: border-color 0.3s ease, transform 0.2s ease;
+    text-align: center;
+}
+
+input[type="email"]:focus {
+    outline: none;
+    border-color: red;
+    transform: scale(1.02);
+}
+
+button {
+    padding: 12px 40px;
+    background: orange;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background: #e65b50;
+    transform: translateY(-2px);
+}
+
+.privacy-text {
+    font-size: 14px;
+    color: #777;
+    margin-top: 10px;
+}
+
+.privacy-text a {
+    color: #ff6f61;
+    text-decoration: none;
+}
+
+.privacy-text a:hover {
+    text-decoration: underline;
+}
+
+/* Sección de contenido adicional */
+.content {
+    padding: 20px 0;
+}
+
+.content p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #777;
+    text-align: center;
+}
+
+.footer-links {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.footer-links a {
+    font-size: 14px;
+    color: #ff6f61;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .logo img {
+        height: 200px;
+    }
+
+    .encabezado .nombre_cabezado {
+        font-size: 32px;
+    }
+
+    .encabezado .profesion {
+        font-size: 16px;
+    }
+
+    .intro-section h2 {
+        font-size: 28px;
+    }
+
+    .intro-section p {
+        font-size: 15px;
+    }
+
+    input[type="email"] {
+        max-width: 100%;
+    }
+
+    button {
+        padding: 10px 30px;
+    }
+
+    .container .tres_pautas {
+        margin-left: 50px;
+        padding: 0px;
+    }
+
+    .container .margen_pautas {
+        margin-left: 0px;
+    }
+
+    .container .big- {
+        margin-left: -23px;
+    }
+
+    .container .tres_pautas .pauta_uno p{
+        padding: 0px;
+    }
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+/* .label-text {
+    color: white;
+} */
+
+.checkbox-container a {
+    color: #721d5d;
+    text-decoration: none;
+}
+
+.checkbox-container a:hover {
+    text-decoration: underline;
+}
+
+.checkbox-container input {
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    display: none;
+    margin-top: 5px;
+}
+
+.fondo_naranja {
+    color: black;
+    background-color: orange;
+}
+
+.fondo_rojo {
+    background-color: red;
+}
+
+.big-no {
+    font-size: 18px;
+    color: red;
+}
+
+.big- {
+    font-size: 23px;
+    color: red;
+    margin-right: 10px;
+}
+
+.margen_pautas {
+    margin-left: 23px;
+}
+
+.tres_pautas {
+    margin-left: 100px;
+}
+
+.tres_pautas p {
+    text-align: left;
+}
+
+.letra_roja {
+    color: red;
+}
