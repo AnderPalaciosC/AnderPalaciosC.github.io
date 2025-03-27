@@ -8,37 +8,22 @@ body {
     font-family: 'Roboto Slab', serif;
     line-height: 1.4;
     color: #333;
-    /* background-color: black; */
-    /* background-color: #281E1E; */
-    /* background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png'); */
-    /* background-color: rgb(73 6 6); */
-    /* background-color: rgb(71 99 121); */
-    /* background-color: rgb(157, 157, 157); */
     background-size: cover;
     background-repeat: repeat;
-    /* background: url('imagenes/fondo.jpg') no-repeat center center fixed; */
-    /* Sombra roja solo en el lado derecho */
 }
 
-/* Header */
 header {
     text-align: center;
     padding: 50px 0;
     background: none;
-    /* background-color: black; */
-    /* background-color: rgb(73 6 6); */
 }
 
-/* Contenedor principal con efecto de folio A4 */
 .container {
-    max-width: 900px; /* Ancho similar a un A4 */
+    max-width: 900px;
     margin: 40px auto;
-    /* background-color: black; */
     background: #fff;
     padding: 40px;
     border: 2px solid rgb(73 6 6);
-    /* border: 0.5px solid white; */
-    /* box-shadow: 0pc 0px 20px white; */
     border-radius: 8px;
 }
 
@@ -46,20 +31,7 @@ header {
     text-align: center;
     padding: 40px;
     background: none;
-    /* background-color: black; */
     background-color: rgb(73 6 6);
-}
-
-header .container .logo {
-    text-align: center;
-}
-
-.logo img {
-    height: 400px;
-    width: auto;
-    border-radius: 8px;
-    /* box-shadow: 0pc 0px 20px white; */
-    border: 5px solid white;
 }
 
 .encabezado {
@@ -83,13 +55,14 @@ header .container .logo {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-/* Sección principal */
 main {
     margin-top: 0;
 }
 
 .intro-section {
     padding: 40px 0;
+    max-width: 644px;
+    margin-left: 75px;
 }
 
 .intro-section h2 {
@@ -98,7 +71,6 @@ main {
     color: #222;
     text-align: center;
     margin-bottom: 30px;
-    /* border-bottom: 2px solid #ff6f61; */
     display: inline-block;
     padding-bottom: 10px;
 }
@@ -111,7 +83,6 @@ main {
 .intro-section .izquierda p {
     color: black;
     text-align: left;
-    margin-left: 50px;
     font-size: 20px;
 }
 
@@ -121,42 +92,15 @@ main {
     text-align: center;
 }
 
-/* .intro-section h3 {
-    font-size: 20px;
-    color: black;
-    text-align: center;
-    color: rgb(73 6 6);
-} */
-
 .intro-section p {
     color: black;
     text-align: center;
     font-size: 20px;
-    /* color: white; */
 } 
 
 .intro-section {
     padding: 40px 0;
 }
-
-/* .intro-section p strong {
-    color: #ff6f61;
-} */
-
-/* .intro-section p em {
-    font-style: italic;
-    color: #222;
-} */
-
-/* Call to Action (CTA) */
-/* .cta-section {
-    margin-top: 40px;
-    text-align: center;
-    padding: 30px;
-    background: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-} */
 
 .cta-section {
     text-align: center;
@@ -232,7 +176,6 @@ button:hover {
     text-decoration: underline;
 }
 
-/* Sección de contenido adicional */
 .content {
     padding: 20px 0;
 }
@@ -269,15 +212,10 @@ footer p {
     text-decoration: underline;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .container {
         margin: 20px;
         padding: 20px;
-    }
-
-    .logo img {
-        height: 200px;
     }
 
     .encabezado .nombre_cabezado {
@@ -292,6 +230,10 @@ footer p {
         font-size: 28px;
     }
 
+    .intro-section {
+        margin-left: 0px;
+    }
+
     .intro-section p {
         font-size: 15px;
     }
@@ -304,21 +246,12 @@ footer p {
         padding: 10px 30px;
     }
 
-    .container .tres_pautas {
-        margin-left: 50px;
-        padding: 0px;
-    }
-
     .container .margen_pautas {
         margin-left: 0px;
     }
 
-    .container .big- {
-        margin-left: -23px;
-    }
-
-    .container .tres_pautas .pauta_uno p{
-        padding: 0px;
+    .intro-section .izquierda p {
+        font-size: 15px;
     }
 }
 
@@ -327,10 +260,6 @@ footer p {
     align-items: center;
     margin-top: 15px;
 }
-
-/* .label-text {
-    color: white;
-} */
 
 .checkbox-container a {
     color: #721d5d;
@@ -365,26 +294,28 @@ footer p {
 }
 
 .big-no {
-    font-size: 18px;
+    font-size: 20px;
     color: red;
 }
 
 .big- {
+    position: relative;
     font-size: 23px;
     color: red;
-    margin-right: 10px;
-}
-
-.margen_pautas {
-    margin-left: 23px;
+    display: inline-block;
+    width: 10px;
 }
 
 .tres_pautas {
-    margin-left: 100px;
+    margin-left: 35px;
 }
 
 .tres_pautas p {
+    margin: 0;
+    padding-left: 20px;
+    text-indent: -15px;
     text-align: left;
+    font-size: 16px;
 }
 
 .letra_roja {
